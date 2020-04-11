@@ -32,6 +32,10 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
     $(LOCAL_DIR)/X01BD/pa_X01BD.mk
 
+# Realme Devices
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/RMX1921/pa_RMX1921.mk
+
 # SONY OpenDevices
 # Loire 8956
 PRODUCT_MAKEFILES += \
@@ -66,4 +70,5 @@ COMMON_LUNCH_CHOICES += \
     pa_sagit-userdebug \
     pa_suzu-userdebug \
     pa_X00TD-userdebug \
-    pa_X01BD-userdebug
+    pa_X01BD-userdebug \
+    pa_RMX1921-userdebug
